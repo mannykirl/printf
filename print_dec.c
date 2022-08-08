@@ -9,7 +9,7 @@ int print_dec(va_list args)
 	count = 0;
 	j = 1000000000;
 	a[0] = k / j;
-	for (i = 1; i < 10: i++)
+	for (i = 1; i < 10; i++)
 	{
 		j /= 10;
 		a[i] = (k / j) % 10;
