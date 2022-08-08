@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * print_dec - prints decimal
+ * @args: listed arguments
+ *
+ * Return: return number of char printed
+ */
+
 int print_dec(va_list args)
 {
 	int a[10];
