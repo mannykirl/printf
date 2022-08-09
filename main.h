@@ -21,5 +21,7 @@ int _printf(const char *format, ...);
 int print_dec(va_list);
 int print_int(va_list);
 int print_char(va_list val);
+int print_char(va_list val);
+int print_string(va_list val)
 
 #endif /* MAIN_H */
