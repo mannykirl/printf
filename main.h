@@ -4,6 +4,7 @@
 #include <stdarg.h>
 #include <stdlib.h>
 #include <limits.h>
+#include <stdio.h>
 
 /**
  * struct printer - structure for printing to stdout
