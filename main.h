@@ -18,5 +18,6 @@ printer _get_print_func(const char *specifier);
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_dec(va_list);
+int print_int(va_list);
 
 #endif /* MAIN_H */
