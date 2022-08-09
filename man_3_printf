@@ -59,7 +59,7 @@ Returns the number of all the characters printed, excluding the NULL byte used t
 .SH Format String Format
 The format string is a character string, which contains two types of directives: ordinary characters which are coppied to the output stream; and conversion specifiers. Each conversion specification is introduced by the character %, and ends with a conversion specifier.
 .SH Conversion Specifiers
-This are the characters that specifies the type of conversion to be applied. The conversion specifiers and their meanings are: 
+This are the characters that specifies the type of conversion to be applied. The conversion specifiers and their meanings are:
 .TP
 .B c
 .R The \fIint\fR argument is converted to an \fIunsigned char\fR, and the resulting character is written.
@@ -98,7 +98,6 @@ The character \fI%\fR is followed by zero the following flags:
 .R A space in blank should be left before a positive number followed by a signed conversion.
 .SH NOTES.R A space in blank should be left before a positive number followed by a signed conversion.
 .SH NOTES
-.R The \fB_printf()\fR is a project collaboration between \Tolulope Fakunle\fR and \Bamidele Adefolaju\fR, actual students of Software Engineering at \fB Alx\fR.
 .SH BUGS
 .R In process
 .SH EXAMPLE

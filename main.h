@@ -8,6 +8,8 @@
 
 /**
  * struct printer - structure for printing to stdout
+ * @specifier: specifier
+ * @run: initiate
  */
 
 typedef struct printer
