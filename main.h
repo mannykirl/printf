@@ -23,7 +23,7 @@ int print_dec(va_list);
 int print_int(va_list);
 int print_char(va_list val);
 int print_string(va_list val);
-int _strlen(char *s);
-int _strlenc(const char *s);
+int _puts(char *str);
+
 
 #endif /* MAIN_H */
