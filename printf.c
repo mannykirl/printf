@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 	printer printer;
 
 	va_start(args, format);
-	while (format[i]);
+	while (format[i])
 	{
 		for (; format[i] != '%' && format[i]; i++)
 		{

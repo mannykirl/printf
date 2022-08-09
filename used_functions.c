@@ -16,7 +16,7 @@ printer _get_print_func(const char *specifier)
 
 	for (i = 0; printers[i].specifier != NULL; i++)
 	{
-		if (specifier == *(printers[i].specifier))
+		if (*specifier == *(printers[i].specifier))
 			break;
 	}
 	return (printers[i]);
