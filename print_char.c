@@ -5,11 +5,8 @@
  * @val => arguments.
  * Return: 1.
  */
-int print_char(va_list val)
+int print_char(va_list args)
 {
-	char s;
-
-	s = va_arg(val, int);
-	_putchar(s);
+	_putchar(va_arg(args, int));
 	return (1);
 }
