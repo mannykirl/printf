@@ -11,6 +11,7 @@ printer _get_print_func(const char *specifier)
 	int i;
 	static printer printers[] = {
 		{"i", print_int},
+		{"c", print_char},
 		{"d", print_dec},
 		{NULL, NULL}
 	};
