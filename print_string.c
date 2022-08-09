@@ -2,41 +2,23 @@
 
 /**
  * print_string - print a string.
- * @val: argument.
- * Return: the length of the string.
+ * @str: The string.
+ * Return: number of characters printed
  */
 
-int _strlen(char *s)
+int _puts(char *str)
 {
-	int len = 0;
+	int i = 0;
 	
-	while(*s != '\0')
+	while(str[i])
 	{
-		s++;
-		len++;
+		_putchar(str[i]);
+		i++;
 	}
-	return (len);
+	return (i);
 }
 
-int print_string(va_list val)
+int print_string(va_list args)
 {
-	char *s;
-	int i, len;
-
-	s = va_arg(val, char *);
-	if (s == NULL)
-	{
-		s = "(null)";
-		len = _strlen(s);
-		for (i = 0; i < len; i++)
-			_putchar(s[i]);
-		return (len);
-	}
-	else
-	{
-		len = _strlen(s);
-		for (i = 0; i < len; i++)
-			_putchar(s[i]);
-		return (len);
-	}
+		return (_puts(va_arg(args, char*)));
 }
