@@ -25,5 +25,5 @@ int print_char(va_list val);
 int print_string(va_list val);
 int _puts(char *str);
 
-
+pls show
 #endif /* MAIN_H */
