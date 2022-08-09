@@ -16,7 +16,7 @@ int _strlen(const char *s)
 
 /**
  * _printf - prints anything
- * @format: format 
+ * @format: format
  *
  * Return: count
  */
