@@ -29,7 +29,9 @@ int _puts(char *str);
 int print_udec(va_list args);
 int print_octal(va_list args);
 int print_hex(unsigned int n, unsigned int c);
+int print_ascii(va_list args);
 int print_hex_low(va_list args);
+static int hex_print(char c);
 int _strlen(const char *s);
 int print_binary(va_list);
 
