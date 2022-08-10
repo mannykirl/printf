@@ -23,8 +23,16 @@ int _putchar(char c);
 int _printf(const char *format, ...);
 int print_dec(va_list);
 int print_int(va_list);
-int print_char(va_list);
-int print_string(va_list);
+int print_char(va_list val);
+int print_string(va_list val);
+int _puts(char *str);
+int print_udec(va_list args);
+int print_octal(va_list args);
+int print_hex(unsigned int n, unsigned int c);
+int print_ascii(va_list args);
+int print_hex_low(va_list args);
+static int hex_print(char c);
 int _strlen(const char *s);
 int print_binary(va_list);
+
 #endif /* MAIN_H */
