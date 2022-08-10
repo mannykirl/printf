@@ -35,5 +35,7 @@ int print_hex_upper(va_list);
 int _strlen(const char *s);
 int print_binary(va_list);
 int print_pointer(va_list);
+int print_rot13(va_list);
+int print_rev_str(va_list);
 
 #endif /* MAIN_H */

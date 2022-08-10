@@ -10,6 +10,8 @@ printer _get_print_func(const char *specifier)
 {
 	int i;
 	static printer printers[] = {
+		{"r", print_rev_str},
+		{"R", print_rot13},
 		{"u", print_udec},
 		{"o", print_octal},
 		{"x", print_hex_low},
