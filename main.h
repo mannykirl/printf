@@ -31,7 +31,7 @@ int print_octal(va_list args);
 int print_hex(unsigned int n, unsigned int c);
 int print_ascii(va_list args);
 int print_hex_low(va_list args);
-static int hex_print(char c);
+int print_hex_upper(va_list);
 int _strlen(const char *s);
 int print_binary(va_list);
 int print_pointer(va_list);

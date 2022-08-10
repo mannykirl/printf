@@ -7,7 +7,13 @@ int main(void)
 
 	int len;
 	int len2;
+	unsigned int ui;
 
+	ui = (unsigned int)INT_MAX + 1024;
+	_printf("unsigned:[%u]\n", ui);
+	printf("unsigned:[%u]\n", ui);
+	printf("unsigned octal:[%o]\n", ui);
+	_printf("unsigned octal:[%o]\n", ui);
 	len = _printf("percent:[%%]\n");
 	len2 = printf("percent:[%%]\n");
 	_printf("Character:[%c]\n", 'H');

@@ -62,7 +62,7 @@ int print_pointer(va_list args)
 				_putchar('0' + a[i]);
 			else
 				_putchar('0' + ('a' - ':') + a[i]);
-			count++
+			count++;
 		}
 	}
 	return (count);

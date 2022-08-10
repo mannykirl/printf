@@ -13,7 +13,7 @@ printer _get_print_func(const char *specifier)
 		{"u", print_udec},
 		{"o", print_octal},
 		{"x", print_hex_low},
-		{"X", print_hex_upper},
+		/*{"X", print_hex_upper},*/
 		{"S", print_ascii},
 		{"b", print_binary},
 		{"s", print_string},

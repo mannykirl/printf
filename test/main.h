@@ -8,6 +8,8 @@
 
 /**
  * struct printer - structure for printing to stdout
+ * @specifier: specifier
+ * @run: initiate
  */
 
 typedef struct printer
@@ -23,5 +25,15 @@ int print_dec(va_list);
 int print_int(va_list);
 int print_char(va_list);
 int print_string(va_list);
+int _puts(char *str);
+int print_udec(va_list args);
+int print_octal(va_list args);
+int print_hex(unsigned int n, unsigned int c);
+int print_ascii(va_list args);
+int print_hex_low(va_list args);
+int print_hex_upper(va_list);
+int _strlen(const char *s);
+int print_binary(va_list);
+int print_pointer(va_list);
 
 #endif /* MAIN_H */
