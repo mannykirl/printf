@@ -10,6 +10,11 @@ printer _get_print_func(const char *specifier)
 {
 	int i;
 	static printer printers[] = {
+		{"u", print_udec},
+		{"o", print_octal},
+		{"x", print_hex_low},
+		{"X", print_hex_upper},
+		{"S", print_ascii},
 		{"b", print_binary},
 		{"s", print_string},
 		{"i", print_int},
